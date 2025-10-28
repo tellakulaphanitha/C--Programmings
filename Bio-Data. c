@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+printf("Name: T.Phanitha \n");
+printf("DOB: 17-02-2008 \n");
+printf("Father: T.Veera Babu \n");
+printf("Mother: T.Lakshmi \n");
+printf("Place:Kakinada \n");
+return 0;
+}
