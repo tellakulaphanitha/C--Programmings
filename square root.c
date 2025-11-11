@@ -2,10 +2,14 @@
 #include<math.h>
 int main()
 {
-  int X,S;
-printf("enter any number");
-scanf("%d",&X);
-s=sqrt(X);
-printf("square root is =%d",S);
-return 0;
+	int n,s;
+	hi:
+		printf("enter n value");
+		scanf("%d",&n);
+		if(n<0)
+		goto hi;
+		s=sqrt(n);
+		printf("square root is = %d",s);
+		return 0;
 }
+
